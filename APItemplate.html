@@ -1541,7 +1541,7 @@ For IPv6 link-local addresses, a <code>scope_id</code> name (a bindata) can be p
 <code>port</code> to specify which port to use to contact these DNS servers; the default is 53. If
 the stub and a recursive resolver both support TSIG (RFC 2845), the <code>upstream_list</code> entry
 can also contain <code>tsig_algorithm</code> (a bindata) that is the name of the TSIG hash
-algorithm, and <code>tsig_secret</code> (a bindata) that is the TSIG key.</p>
+algorithm, <code>tsig_name</code> (a bindata) that is the name of the TSIG key, and <code>tsig_secret</code> (a bindata) that is the TSIG key.</p>
 
 <h2>Context for EDNS</h2>
 
