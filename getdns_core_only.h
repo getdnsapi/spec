@@ -1,4 +1,4 @@
-/* Created at 2015-12-24-15-38-10*/
+/* Created at 2015-12-24-15-58-04*/
 #ifndef GETDNS_H
 #define GETDNS_H
 
@@ -109,14 +109,12 @@ typedef enum getdns_transport_t {
 typedef enum getdns_transport_list_t {
 	GETDNS_TRANSPORT_UDP = 1200,
 	GETDNS_TRANSPORT_TCP = 1201,
-	GETDNS_TRANSPORT_TLS = 1202,
-	GETDNS_TRANSPORT_STARTTLS = 1203
+	GETDNS_TRANSPORT_TLS = 1202
 } getdns_transport_list_t;
 
 #define GETDNS_TRANSPORT_UDP_TEXT "See getdns_context_set_dns_transport_list()"
 #define GETDNS_TRANSPORT_TCP_TEXT "See getdns_context_set_dns_transport_list()"
 #define GETDNS_TRANSPORT_TLS_TEXT "See getdns_context_set_dns_transport_list()"
-#define GETDNS_TRANSPORT_STARTTLS_TEXT "See getdns_context_set_dns_transport_list()"
 
 /* Suffix appending methods */
 typedef enum getdns_append_name_t {

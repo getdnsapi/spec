@@ -72,8 +72,7 @@ DefinesArr.append([ 540, "GETDNS_TRANSPORT_", "Transport arrangements", EnumType
 DefinesArr.append([ 1200, "GETDNS_TRANSPORT_LIST_", "Transport list arrangements", EnumType,
 	[ "UDP", "See getdns_context_set_dns_transport_list()" ],
 	[ "TCP", "See getdns_context_set_dns_transport_list()" ],
-	[ "TLS", "See getdns_context_set_dns_transport_list()" ],
-	[ "STARTTLS", "See getdns_context_set_dns_transport_list()" ]
+	[ "TLS", "See getdns_context_set_dns_transport_list()" ]
 ])
 
 DefinesArr.append([ 550, "GETDNS_APPEND_NAME_", "Suffix appending methods", EnumType,
@@ -537,7 +536,7 @@ APIdesc = "index.html"
 APIcoreName = "getdns_core_only"
 APItemplate = "APItemplate.html"
 BackupDir = "NotForSVN/Backups"
-VersionNumber = "0.900"
+VersionNumber = "0.901"
 ThisTarballName = "getdns-" + VersionNumber + ".tgz"
 TheExamplesToMake = [ 
 	"example-all-functions",
